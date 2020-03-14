@@ -1,0 +1,13 @@
+{
+	"name" : "No Fake News",
+	"description" : "Remove start menu feeds",
+	"author" : "DeYuS for the skilltree remover and blt box emplacement \nFrankelstner for the code to remove bottom right box \n-- taken from here https://steamcommunity.com/app/218620/discussions/15/154641879454765407/",
+	"contact" : "DeYuS on steam",
+	"image" : "NoFakeNews.png",
+	"color" : "1 2 3",
+	"version" : "1.2",
+	"priority" : "1000",
+	"blt_version" : 2,
+	"updates" : [{ "identifier" : "NFN" }],
+	"hooks" : [{ "hook_id" : "lib/managers/menu/menucomponentmanager", "script_path" : "NoFakeNews.lua" }, { "hook_id" : "lib/managers/menu/menuscenemanager", "script_path" : "NoLogo.lua" }]
+}
